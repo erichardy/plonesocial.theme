@@ -22,19 +22,6 @@ Features
 * ``presentation_view`` is enhanced with Google's HTML5 slides
 * Included carousel portlet provides a way to display images using Bootstrap's
   carousel
-* ``Products.ContentWellPortlets`` is supported, however with some modifications. 
-
-  * PortletAboveContentA will appear full width right below logo
-  * PortletAboveContentB will appear full width right below breadcrumbs
-  * PortletAboveContentC will appear fluid width right above content center 
-    column
-  * PortletBelowContentA, PortletBelowContentB, PortletBelowContentC will 
-    appear as a 3 column portlet slots right below content and sidebar area
-  * PortletBelowContentD will appear full width right below
-    PortletBelowContentA, PortletBelowContentB, and PortletBelowContentC
-  * PortletBelowContentE will appear right below content center column
-  * All PortletFooter will appear as a 6 column slot within the footer area
-
 * ``eea.facetednavigation`` is also supported, with some enhancements.
 
   * The diazo rules rewrite facetednavigation templates to take advantage of
