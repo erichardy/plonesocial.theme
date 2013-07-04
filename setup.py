@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.5.dev0'
+version = '0.5.0dev'
 
 setup(name='plonesocial.theme',
       version=version,
