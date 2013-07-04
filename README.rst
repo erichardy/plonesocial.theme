@@ -4,6 +4,22 @@ Introduction
 Plone theme based on Twitter Bootstrap 2.0.
 Forked from diazotheme.bootstrap.
 
+This theme is intended to be used with the `PloneSocial suite`_.
+
+.. _PloneSocial suite: https://github.com/cosent/plonesocial.suite
+
+
+Credits
+-------
+
+|Cosent|_
+
+This package is maintained by Cosent_.
+
+.. _Cosent: http://cosent.nl
+.. |Cosent| image:: http://cosent.nl/images/logo-external.png 
+                    :alt: Cosent
+
 Installation
 ============
 
