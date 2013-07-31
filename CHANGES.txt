@@ -1,4 +1,4 @@
-x.x.x (unreleased)
+0.5.3 (2013-07-31)
 ------------------
 
 * better profile name [gyst]
