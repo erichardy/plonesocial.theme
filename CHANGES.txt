@@ -1,3 +1,13 @@
+0.5.3 (2013-07-31)
+------------------
+
+* better profile name [gyst]
+
+0.5.2 (2013-07-31)
+------------------
+
+* bump version to resolve tag/setup mismatch [gyst]
+
 0.5.0 (2013-07-04)
 ------------------
 
