@@ -1,3 +1,11 @@
+Changelog
+=========
+
+0.5.4 (2014-03-11)
+------------------
+
+* bring theme inline with changed plonesocial.activitystream navigation markup [gyst]
+
 0.5.3 (2013-07-31)
 ------------------
 
