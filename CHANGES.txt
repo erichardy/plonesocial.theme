@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.5.5 (unreleased)
+
+* remove jQuery version hackery fixes https://github.com/cosent/plonesocial.suite/issues/5
+
 0.5.4 (2014-03-11)
 ------------------
 
