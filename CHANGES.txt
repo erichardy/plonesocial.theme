@@ -1,7 +1,13 @@
 Changelog
 =========
 
+0.7.0 (unreleased)
+------------------
+
+* fix personal menu fallout of "Berlin" patternslib rewrite [Guido A.J. Stevens]
+
 0.5.5 (unreleased)
+------------------
 
 * remove jQuery version hackery fixes https://github.com/cosent/plonesocial.suite/issues/5
 
