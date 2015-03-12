@@ -9,12 +9,12 @@ Changelog
 0.5.5 (unreleased)
 ------------------
 
-* remove jQuery version hackery fixes https://github.com/cosent/plonesocial.suite/issues/5
+* remove jQuery version hackery fixes https://github.com/cosent/ploneintranet.suite/issues/5
 
 0.5.4 (2014-03-11)
 ------------------
 
-* bring theme inline with changed plonesocial.activitystream navigation markup [gyst]
+* bring theme inline with changed ploneintranet.activitystream navigation markup [gyst]
 
 0.5.3 (2013-07-31)
 ------------------
@@ -36,7 +36,7 @@ Changelog
 * style footer more elegantly [Guido A.J. Stevens]
 * provide and fall back to hardcoded footer [Guido A.J. Stevens]
 * simplify by removing ContentWellPortlets support [Guido A.J. Stevens]
-* integrate plonesocial subnav [Guido A.J. Stevens]
+* integrate ploneintranet subnav [Guido A.J. Stevens]
 * fork from diazotheme.bootstrap [Guido A.J. Stevens]
 
 0.4 and earlier

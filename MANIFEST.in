@@ -1,4 +1,4 @@
 include *.txt
 include *.rst
-recursive-include plonesocial *
+recursive-include ploneintranet *
 global-exclude *pyc

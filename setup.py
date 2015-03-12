@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 version = '0.7.0.dev'
 
-setup(name='plonesocial.theme',
+setup(name='ploneintranet.theme',
       version=version,
       description="Plone theme based on Twitter's Bootstrap CSS",
       long_description=(open("README.rst").read() + "\n" +
@@ -13,10 +13,10 @@ setup(name='plonesocial.theme',
       keywords='plone diazo theme',
       author='Guido Stevens / Based on work by Izhar Firdaus',
       author_email='guido.stevens@cosent.net',
-      url='https://github.com/cosent/plonesocial.theme',
+      url='https://github.com/cosent/ploneintranet.theme',
       license='Apache License 2.0',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['plonesocial'],
+      namespace_packages=['ploneintranet'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

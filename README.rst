@@ -5,7 +5,7 @@ Plone theme based on Twitter Bootstrap 2.0.
 
 This theme is intended to be used with the `PloneSocial suite`_.
 
-.. _PloneSocial suite: https://github.com/cosent/plonesocial.suite
+.. _PloneSocial suite: https://github.com/cosent/ploneintranet.suite
 
 
 Credits
@@ -25,7 +25,7 @@ This package is forked from `diazotheme.bootstrap`_ by Izhar Firdaus.
 Installation
 ============
 
-Install the ``plonesocial.theme`` product using the Add-on Control Panel.
+Install the ``ploneintranet.theme`` product using the Add-on Control Panel.
 This will activate the theme and also setup Plone's default ``public.css``
 to only included when Diazo is enabled or when you are viewing the Theming 
 Control Panel. This theme includes its own ``public.css`` which had several 
