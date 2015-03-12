@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 version = '0.7.0.dev'
 
-setup(name='ploneintranet.theme',
+setup(name='ploneintranet.socialtheme',
       version=version,
       description="Plone theme based on Twitter's Bootstrap CSS",
       long_description=(open("README.rst").read() + "\n" +
