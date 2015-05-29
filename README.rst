@@ -1,64 +1,31 @@
-Introduction
-============
+Deprecated
+==========
 
-Plone theme based on Twitter Bootstrap 2.0.
+The plonesocial.* group of packages has become ploneintranet_.
 
-This theme is intended to be used with the `PloneSocial suite`_.
+Plone Intranet features a complete redesign and re-implementation of the
+front-end user interface of plonesocial. The backend is largely unchanged
+but extended with new features: liking updates, personalized tagging.
 
-.. _PloneSocial suite: https://github.com/cosent/plonesocial.suite
-
-
-Credits
--------
+Work on the ploneintranet `code base`_ is sponsored by the
+`Plone Intranet Consortium`_, a group of companies dedicated to delivering
+the leading open source digital workplace platform, based on Plone.
+Have a look, you'll like it. It's 100% open source.
 
 |Cosent|_
 
-Plonesocial.theme is maintained by Cosent_.
+Plonesocial and Plone Intranet are initiatives by Cosent_.
 
-This package is forked from `diazotheme.bootstrap`_ by Izhar Firdaus.
+This repository is maintained frozen for developers who have made forks
+for use in their own projects. If you're one of those developers and are
+interested in upgrading to Plone Intranet, please contact Cosent_.
 
+Please note that commits after August 2014 are part of the ploneintranet
+rewrite, before plonesocial.* got merged into ploneintranet.*.
+
+.. _ploneintranet: https://github.com/ploneintranet/ploneintranet
+.. _code base: https://github.com/ploneintranet/ploneintranet
+.. _Plone Intranet Consortium: http://ploneintranet.com
 .. _Cosent: http://cosent.nl
 .. |Cosent| image:: http://cosent.nl/images/logo-external.png 
                     :alt: Cosent
-.. _diazotheme.bootstrap: https://github.com/kagesenshi/diazotheme.bootstrap
-
-Installation
-============
-
-Install the ``plonesocial.theme`` product using the Add-on Control Panel.
-This will activate the theme and also setup Plone's default ``public.css``
-to only included when Diazo is enabled or when you are viewing the Theming 
-Control Panel. This theme includes its own ``public.css`` which had several 
-items from the default ``public.css`` removed.
-
-Features
-=========
-
-* Turn your site into a pretty Bootstrap based theme, and also simplifies
-  templating of customization addons.
-* Portlets are converted to ``div`` elements instead of ``dl``, ``dt``, ``dd``
-* ``presentation_view`` is enhanced with Google's HTML5 slides
-* Included carousel portlet provides a way to display images using Bootstrap's
-  carousel
-* ``eea.facetednavigation`` is also supported, with some enhancements.
-
-  * The diazo rules rewrite facetednavigation templates to take advantage of
-    the responsive design.
-  * If the first widget at the top widget slot is a text search widget, it will 
-    appear as a full width widget with a different background.
-
-* Installing ``webcouturier.dropdownmenu`` will enhance the top navigation with
-  dropdown menus.
-
-Using Bootstrap javascripts
-===========================
-
-This product leaves plone jquery alone not to break existing functionality.
-But bootstrap requires a newer jQuery version. We include the needed one renaming it to jQuery17.
-If you need js functionality from bootstrap you have to use jQuery17, for instance
-
-    $(function() {
-        jQuery17('.tooltipped').tooltip()
-    });
-
-to activate the tooltip plugin on elements with the class "tooltipped".
