@@ -34,7 +34,9 @@
 
     <!--    
     <notheme if-content="html/head/link[@href='/manage_page_style.css']"/>
+    -->
     <notheme css:if-content="#content.dialog-wrapper"/>
+    <!--
     <notheme css:if-content="body.popup"/>
     -->
     <rules css:if-content="#visual-portal-wrapper">
